@@ -100,7 +100,6 @@ class Login extends Component {
       })
       .then((response) => response.json())
       .then( (responseJSON) => {
-        console.log(responseJSON);
         if (responseJSON.status == 1) {
             this.saveItem('token', responseJSON.token)
             Actions.Home();
