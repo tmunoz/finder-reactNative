@@ -87,25 +87,23 @@ class Login extends Component {
 
   handleSignIn = () => {
     if (this.checkValuesForm()) {
-      fetch('URL HEROKU', {
+      fetch('https://apifinder.herokuapp.com/user/login', {
         method: 'POST',
         headers: {
           "content-type": "application/json",
           "Accept": "application/json",
         },
         body: JSON.stringify({
-          "auth": {
             "email": this.state.email,
             "password": this.state.password
-          }
         }),
       })
-      .then((response) => {
-        if (response.status == 201) {
-          response.json().then(data => {
-            this.saveItem('token', data.jwt)
-            Actions.Home()
-          })
+      .then((response) => response.json())
+      .then( (responseJSON) => {
+        console.log(responseJSON);
+        if (responseJSON.status == 1) {
+            this.saveItem('token', responseJSON.token)
+            Actions.Home();
         } else {
           Alert.alert('Incorrecto nombre de usuario y/o password')
           this.setState({
@@ -125,7 +123,7 @@ class Login extends Component {
   checkValuesForm = () => {
     if (!this.state.email || !this.state.password)
       return false
-    else 
+    else
       return true
   }
 
@@ -133,7 +131,7 @@ class Login extends Component {
     return(
       <View style={styles.container}>
         <Image
-          source={require('../src/images/background-login.png')} 
+          source={require('../src/images/background-login.png')}
           style={styles.backgroundImage}>
         </Image>
         <Image

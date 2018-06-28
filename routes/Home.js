@@ -4,6 +4,7 @@ import {
   Text,
   View,
 } from 'react-native'
+import Header from './Header'
 import { Actions } from 'react-native-router-flux'
 
 var styles = StyleSheet.create({
@@ -18,8 +19,11 @@ var styles = StyleSheet.create({
 class Home extends Component {
   render(){
     return(
-      <View style={styles.container}>
-        <Text>Home</Text>
+      <View>
+        <Header />
+        <View style={styles.container}>
+          <Text>Home</Text>
+        </View>        
       </View>
     )
   }

@@ -4,14 +4,14 @@ import {
   Text,
   View,
   AsyncStorage
-} from 'react-native'
+} from 'react-native';
 import {
   Router,
   Scene
-} from 'react-native-router-flux'
+} from 'react-native-router-flux';
 
-import Login from './routes/Login'
-import Home from './routes/Home'
+import Login from './routes/Login';
+import Home from './routes/Home';
 
 var styles = StyleSheet.create({
   container: {
@@ -37,12 +37,13 @@ export default class App extends React.Component {
   constructor(props){
     super(props)
     this.state = {
-      page:'Home'
+      page:'Home',
+      logedIn: false
     }
   }
 
   render() {
-    if (AsyncStorage.getItem('token') == null) {
+    if (!this.state.logedIn) {
       return (
         <Router>
           <Scene key="root">
@@ -52,6 +53,12 @@ export default class App extends React.Component {
               initial={true}
               key="Login"
               title="Login"
+            />
+            <Scene
+              component={Home}
+              hideNavBar={true}
+              key="Home"
+              title="Inicio"
             />
           </Scene>
         </Router>
