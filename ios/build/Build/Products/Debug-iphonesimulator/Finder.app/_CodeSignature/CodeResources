@@ -6,7 +6,48 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		Oy5Rxss8EmXCVU2FJ5lUe4e9CPI=
+		+xciYMHsIy2Qh8sltIsAjmgIvcY=
+		</data>
+		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
+		<data>
+		8CN5cCzwKl0+7ieNPMN/SawZQA8=
+		</data>
+		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
+		<data>
+		Cwsl4MoHt6dTvyYXRy5C2x7Kd88=
+		</data>
+		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
+		<data>
+		UU+vWjYvpE8lKAxV1lE2tUbIZA0=
+		</data>
+		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
+		<data>
+		znuKt4UiTOJWwzrlgwaYX94o/a4=
+		</data>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<data>
+		uPxPInP5h9+ERgCm8NCXpuuMEmg=
+		</data>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<data>
+		aHoR6mqqp0XWLqiw49+MRuFNQLk=
+		</data>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<data>
+		2JoYDV6DTsckEmF+l3Ruo1S1Iqk=
+		</data>
+		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TuBj57ZP6zBqcL9HttO2Rucaw9E=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<data>
+		DmGu9k7yBOLSfwtyNbn3zYir630=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -16,6 +57,26 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>PlugIns/FinderTests.xctest.dSYM/Contents/Info.plist</key>
+		<data>
+		g+/pMKc9zEf2bj/5vWSaLwllSMA=
+		</data>
+		<key>PlugIns/FinderTests.xctest.dSYM/Contents/Resources/DWARF/FinderTests</key>
+		<data>
+		xZnw3K3T0XQKlXgm/uEAi2NGubw=
+		</data>
+		<key>PlugIns/FinderTests.xctest/FinderTests</key>
+		<data>
+		cn4RM65vHYZCe03oMxY03P0rYIs=
+		</data>
+		<key>PlugIns/FinderTests.xctest/Info.plist</key>
+		<data>
+		3My783rfblIeRwAaWaBkv/fQTUA=
+		</data>
+		<key>PlugIns/FinderTests.xctest/_CodeSignature/CodeResources</key>
+		<data>
+		lZCiVw36uOUYSuLNeCDLpFvSUNQ=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -23,11 +84,167 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Oy5Rxss8EmXCVU2FJ5lUe4e9CPI=
+			+xciYMHsIy2Qh8sltIsAjmgIvcY=
 			</data>
 			<key>hash2</key>
 			<data>
-			cUOuVHOO71o5AsFugf2ZGi4HZAm/zz2Agil5t7IDK1g=
+			Rsho5+PqGsrtkAOZAOTIwcUo7q/xujCzD/53wFwVSJo=
+			</data>
+		</dict>
+		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8CN5cCzwKl0+7ieNPMN/SawZQA8=
+			</data>
+			<key>hash2</key>
+			<data>
+			/R1Uy1RZ7ljX2V8ZHMhD4g8ieWHns9sj34YDK2McvfY=
+			</data>
+		</dict>
+		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Cwsl4MoHt6dTvyYXRy5C2x7Kd88=
+			</data>
+			<key>hash2</key>
+			<data>
+			IvG0kD54lYvEZzfjVmXtrtBdydTUy1uFZkZXUddfTzY=
+			</data>
+		</dict>
+		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UU+vWjYvpE8lKAxV1lE2tUbIZA0=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ja3vToXIdN/BmsoAh4U4btDVl5lKbzndKf99CyxV6K4=
+			</data>
+		</dict>
+		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			znuKt4UiTOJWwzrlgwaYX94o/a4=
+			</data>
+			<key>hash2</key>
+			<data>
+			napzzKlhgK6Qoqz8QO+9TkyuIsW5V+s6GmClALe2lT4=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uPxPInP5h9+ERgCm8NCXpuuMEmg=
+			</data>
+			<key>hash2</key>
+			<data>
+			N77/gSJpnPT4ryPaR4IJ55aYyiiMCKjlq79qrCmGxU8=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/XCTest</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			aHoR6mqqp0XWLqiw49+MRuFNQLk=
+			</data>
+			<key>hash2</key>
+			<data>
+			unqlGEn5cq6B36PWWq/mAoeeub7L9yZ3vWK7mP9EscQ=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2JoYDV6DTsckEmF+l3Ruo1S1Iqk=
+			</data>
+			<key>hash2</key>
+			<data>
+			OXS9XX1oATlfFoPHZbc7OGt7HUXfXzNrCz28TkkBo/g=
+			</data>
+		</dict>
+		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TuBj57ZP6zBqcL9HttO2Rucaw9E=
+			</data>
+			<key>hash2</key>
+			<data>
+			89RGkjZaKuewYnjpzwhIswhqfrU8+pcEXqM/DHVrUmo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/XCTest.framework/version.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DmGu9k7yBOLSfwtyNbn3zYir630=
+			</data>
+			<key>hash2</key>
+			<data>
+			2hnwNPgdaewT28DbTqe0Gpaccdc2akBF8IjnGtISc58=
+			</data>
+		</dict>
+		<key>PlugIns/FinderTests.xctest.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			g+/pMKc9zEf2bj/5vWSaLwllSMA=
+			</data>
+			<key>hash2</key>
+			<data>
+			z4n3AbAlfhSGSwBuY7lRDKgcbMZtNx1901g2eyA1FAQ=
+			</data>
+		</dict>
+		<key>PlugIns/FinderTests.xctest.dSYM/Contents/Resources/DWARF/FinderTests</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xZnw3K3T0XQKlXgm/uEAi2NGubw=
+			</data>
+			<key>hash2</key>
+			<data>
+			kkxXkPGGWl7pmug/LYYVW7vsAd08Qu005wZgznP/SCI=
+			</data>
+		</dict>
+		<key>PlugIns/FinderTests.xctest/FinderTests</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cn4RM65vHYZCe03oMxY03P0rYIs=
+			</data>
+			<key>hash2</key>
+			<data>
+			rAmS/hHdT/xpRgFNkqX++W8eDwI7oMR5yGeVKZlHTDQ=
+			</data>
+		</dict>
+		<key>PlugIns/FinderTests.xctest/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3My783rfblIeRwAaWaBkv/fQTUA=
+			</data>
+			<key>hash2</key>
+			<data>
+			ht49o2AYfYdhKkjkQ2H4dylUog9vi1lq/2lsMG4hEII=
+			</data>
+		</dict>
+		<key>PlugIns/FinderTests.xctest/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lZCiVw36uOUYSuLNeCDLpFvSUNQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			RWgFG3vhG9QA/5Gq+0jHoGwvURMxx0DeShJV1beixfA=
 			</data>
 		</dict>
 	</dict>
