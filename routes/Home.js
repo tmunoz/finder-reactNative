@@ -1,32 +1,17 @@
-import React, { Component } from 'react'
-import {
-  StyleSheet,
-  Text,
-  View,
-} from 'react-native'
-import Header from './Header'
-import { Actions } from 'react-native-router-flux'
+import React from 'react';
+import { Text, View } from 'react-native';
+import { TabNavigator, TabBarBottom } from 'react-navigation';
 
-var styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+import Map from './screens/map';
+import AddLocation from './screens/addlocation';
+import List from './screens/list';
+import Settings from './screens/settings';
+
+export default TabNavigator(
+  {
+    Map: { screen: Map },
+    Add: { screen: AddLocation },
+    List: { screen: List },
+    Settings: { screen: Settings },
   }
-});
-
-class Home extends Component {
-  render(){
-    return(
-      <View>
-        <Header />
-        <View style={styles.container}>
-          <Text>Home</Text>
-        </View>        
-      </View>
-    )
-  }
-}
-
-export default Home
+);

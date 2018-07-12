@@ -43,40 +43,8 @@ export default class App extends React.Component {
   }
 
   render() {
-    if (!this.state.logedIn) {
-      return (
-        <Router>
-          <Scene key="root">
-            <Scene
-              component={Login}
-              hideNavBar={true}
-              initial={true}
-              key="Login"
-              title="Login"
-            />
-            <Scene
-              component={Home}
-              hideNavBar={true}
-              key="Home"
-              title="Inicio"
-            />
-          </Scene>
-        </Router>
-      )
-    } else {
-      return (
-        <Router>
-          <Scene key="root">
-            <Scene
-              component={Home}
-              hideNavBar={true}
-              initial={true}
-              key="Home"
-              title="Inicio"
-            />
-          </Scene>
-        </Router>
-      )
-    }
+      return(
+        <Home />
+      );
   }
 }
