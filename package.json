@@ -19,9 +19,12 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^6.3.1",
+    "@mapbox/react-native-mapbox-gl": "^6.1.2-beta2",
+    "jwt-decode": "^2.2.0",
     "react": "16.3.1",
     "react-native": "~0.55.2",
     "react-native-elements": "^0.19.1",
+    "react-native-jsontokens": "^0.7.7",
     "react-native-router-flux": "^4.0.0-beta.31",
     "react-native-tab-view": "^1.0.2",
     "react-native-vector-icons": "^4.6.0"

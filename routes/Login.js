@@ -9,7 +9,6 @@ import {
   Alert,
   AsyncStorage
 } from 'react-native'
-import { Actions } from 'react-native-router-flux'
 
 const styles = StyleSheet.create({
   container: {
@@ -69,8 +68,8 @@ const styles = StyleSheet.create({
 
 class Login extends Component {
 
-  constructor() {
-    super()
+  constructor(props) {
+    super(props)
     this.state = {
       email    : "",
       password : ""
@@ -100,9 +99,10 @@ class Login extends Component {
       })
       .then((response) => response.json())
       .then( (responseJSON) => {
+        console.log(responseJSON.status);
         if (responseJSON.status == 1) {
-            this.saveItem('token', responseJSON.token)
-            Actions.Home();
+            this.saveItem('token', responseJSON.token);
+            this.props.navigation.navigate('App');
         } else {
           Alert.alert('Incorrecto nombre de usuario y/o password')
           this.setState({

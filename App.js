@@ -10,8 +10,7 @@ import {
   Scene
 } from 'react-native-router-flux';
 
-import Login from './routes/Login';
-import Home from './routes/Home';
+import Authe from './routes/Authe'
 
 var styles = StyleSheet.create({
   container: {
@@ -38,13 +37,19 @@ export default class App extends React.Component {
     super(props)
     this.state = {
       page:'Home',
+      id: "",
+      name: "",
+      email:"",
+      password:"",
+      locations: [],
       logedIn: false
     }
   }
 
+
   render() {
       return(
-        <Home />
+        <Authe />
       );
   }
 }

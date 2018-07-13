@@ -1,5 +1,6 @@
 dependencies: \
   /Users/Thomas/Documents/Universidad/7mo\ Semestre/Desarrollo\ Web/finder-reactNative/ios/FinderTests/FinderTests.m \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap \
   /Users/Thomas/Documents/Universidad/7mo\ Semestre/Desarrollo\ Web/finder-reactNative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
   /Users/Thomas/Documents/Universidad/7mo\ Semestre/Desarrollo\ Web/finder-reactNative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
   /Users/Thomas/Documents/Universidad/7mo\ Semestre/Desarrollo\ Web/finder-reactNative/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
